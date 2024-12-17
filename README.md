@@ -69,26 +69,6 @@ Screenshots 📸
 
 Example of the game in action.
 
-# Contributing 🤝
-Contributions are welcome! Here's how you can help:
-
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes and commit:
-bash
-Copy code
-git commit -m "Add your feature or fix"
-Push to the branch:
-bash
-Copy code
-git push origin feature/your-feature-name
-Submit a Pull Request.
-License 📜
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 Acknowledgments ❤️
 Special thanks to classic retro games for inspiration!
 
