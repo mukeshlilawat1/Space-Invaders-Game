@@ -1,6 +1,6 @@
 # 👾 Space Invaders - Raylib
 
-![Stars](https://github.com/mukeshlilawat1/Space-Invaders-Cpp/stargazers)
+![Stars](https://img.shields.io/github/stars/<mukeshlilawat>/space-invaders-raylib.svg?style=social)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Cpp Language](https://img.shields.io/badge/Language-Cpp-blue)
 ![Raylib](https://img.shields.io/badge/Library-Raylib-lightgrey)
