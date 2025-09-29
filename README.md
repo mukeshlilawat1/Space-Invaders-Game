@@ -1,8 +1,8 @@
 # 👾 Space Invaders - Raylib
 
-![Stars](https://img.shields.io/github/stars/<your-username>/space-invaders-raylib.svg?style=social)
+![Stars](https://github.com/mukeshlilawat1/Space-Invaders-Cpp/stargazers)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![C Language](https://img.shields.io/badge/Language-C-blue)
+![Cpp Language](https://img.shields.io/badge/Language-Cpp-blue)
 ![Raylib](https://img.shields.io/badge/Library-Raylib-lightgrey)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
@@ -40,7 +40,7 @@ This project demonstrates:
 
 | Language | Library |
 |----------|---------|
-| C        | Raylib  |
+| Cpp        | Raylib  |
 
 ---
 
@@ -50,11 +50,11 @@ This project demonstrates:
 Space-Invaders/
 │
 ├── src/                  # Source code files
-│   ├── main.c            # Main game loop
-│   ├── player.c          # Player logic
-│   ├── enemy.c           # Enemy logic
-│   ├── bullet.c          # Bullet logic
-│   └── utils.c           # Helper functions
+│   ├── main.cpp            # Main game loop
+│   ├── player.cpp          # Player logic
+│   ├── enemy.cpp           # Enemy logic
+│   ├── bullet.cpp          # Bullet logic
+│   └── utils.cpp           # Helper functions
 │
 ├── include/              # Header files
 │   ├── player.h
@@ -83,7 +83,7 @@ Space-Invaders/
 
 1. Clone the repository:
 ```bash
-git clone <repo-url>
+git clone <https://github.com/mukeshlilawat1/Space-Invaders-Cpp.git>
 cd space-invaders-raylib
 ```
 
