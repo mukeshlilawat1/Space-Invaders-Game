@@ -57,7 +57,7 @@ Space-Invaders/
 │   └── utils.cpp           # Helper functions
 │
 ├── include/              # Header files
-│   ├── player.h
+│   ├── spaceship.hpp
 │   ├── enemy.h
 │   ├── bullet.h
 │   └── utils.h
