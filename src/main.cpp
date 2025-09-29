@@ -1,12 +1,13 @@
 #include <raylib.h>
 // #include "include/spaceship.hpp"
 #include "include/game.hpp"
-#include "include/laser.hpp"
+// #include "include/laser.hpp"
+
 
 int main()
 {
     // define colors
-    Color grey = {29, 29, 27, 255};
+    Color grey = {25, 30, 35, 255};
 
     // window dimensions
     int windowWidth = 750;
@@ -18,13 +19,14 @@ int main()
 
     // Spaceship spaceship;
     Game game;
-    Laser laser = Laser({100, 100}, 7);
+    // Laser laser = Laser({100, 100}, 7);
 
     // main game loop
     while (WindowShouldClose() == false)
     {
         game.HandleInput();
-        laser.update();
+        // laser.update();
+        game.Update();
 
         BeginDrawing();
 
@@ -34,7 +36,7 @@ int main()
         // draw spaceship
         // spaceship.draw();
         game.Draw();
-        laser.Draw();
+        // laser.Draw();
 
         EndDrawing();
     }
