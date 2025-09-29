@@ -23,4 +23,3 @@ See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## Notes
 - Pull latest main before PR
-- Link commits to GitHub account
