@@ -12,7 +12,7 @@ void Laser::Draw()
 {
     if (active)
     {
-        DrawRectangle(position.x, position.y, 4, 15, {243, 216, 63, 255});
+        DrawRectangle(position.x, position.y, 4, 15, {50, 200, 50, 110});
     }
 }
 
