@@ -1,29 +1,143 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# 👾 Space Invaders - Raylib
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+![Stars](https://img.shields.io/github/stars/<your-username>/space-invaders-raylib.svg?style=social)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![C Language](https://img.shields.io/badge/Language-C-blue)
+![Raylib](https://img.shields.io/badge/Library-Raylib-lightgrey)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+---
 
-# Video Tutorial
+## ✨ Overview
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+**Space Invaders** is a classic arcade shooting game implemented using the **Raylib** library in C.  
+Players control a spaceship to shoot waves of descending aliens while avoiding enemy attacks.  
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+This project demonstrates:
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+- Real-time rendering and graphics using Raylib  
+- Keyboard input handling  
+- Collision detection between player, bullets, and enemies  
+- Game loop management and basic game mechanics  
+- Sound effects integration
+
+---
+
+## 🎮 Features
+
+- Classic Space Invaders gameplay  
+- Player-controlled spaceship with smooth movement  
+- Multiple enemy waves with increasing difficulty  
+- Bullet shooting mechanics  
+- Collision detection for enemies, bullets, and player  
+- Score tracking system  
+- Game over and restart functionality  
+- Simple sound effects for shooting and explosions
+
+---
+
+## 🛠 Technology Stack
+
+| Language | Library |
+|----------|---------|
+| C        | Raylib  |
+
+---
+
+## 📂 Project Structure
+
+```
+Space-Invaders/
+│
+├── src/                  # Source code files
+│   ├── main.c            # Main game loop
+│   ├── player.c          # Player logic
+│   ├── enemy.c           # Enemy logic
+│   ├── bullet.c          # Bullet logic
+│   └── utils.c           # Helper functions
+│
+├── include/              # Header files
+│   ├── player.h
+│   ├── enemy.h
+│   ├── bullet.h
+│   └── utils.h
+│
+├── assets/               # Game assets
+│   ├── sprites/          # Player, enemy, bullet images
+│   └── sounds/           # Sound effects
+│
+├── Makefile              # Build instructions
+└── README.md             # Project documentation
+```
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Raylib library installed (https://www.raylib.com/)  
+- C compiler: GCC / Clang / MinGW
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repo-url>
+cd space-invaders-raylib
+```
+
+2. Compile the game:
+```bash
+make
+```
+
+3. Run the game:
+```bash
+./space-invaders
+```
+
+---
+
+## 🎮 Controls
+
+- **Arrow keys / A,D:** Move spaceship left/right  
+- **Space:** Shoot bullets  
+- **Esc:** Quit game
+
+---
+
+## ⚡ Gameplay Mechanics
+
+- Enemies move left-to-right and descend after hitting screen borders  
+- Player can shoot bullets upward to destroy enemies  
+- Game ends if an enemy reaches the bottom or player collides with enemy/bullet  
+- Score increases for each enemy defeated
+
+---
+
+## 👤 Contributors
+
+- Mukesh Lilawat – Lead Developer  
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🎨 Screenshots / GIFs
+
+> _Add screenshots or GIFs of gameplay here._
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss what you would like to change.
+
+---
+
+> _Star ⭐ this repo if you enjoy the game!_
