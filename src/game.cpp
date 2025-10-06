@@ -18,7 +18,7 @@ void Game::Update()
         lasers.update();
     }
     DeleteInactiveLasers();
-    std::cout << "vector size : " << spaceship.laser.size() << std::endl;
+    // std::cout << "vector size : " << spaceship.laser.size() << std::endl;
 }
 
 void Game::Draw()
@@ -60,4 +60,4 @@ void Game::DeleteInactiveLasers()
             ++it;
         }
     }
-}
+} 
