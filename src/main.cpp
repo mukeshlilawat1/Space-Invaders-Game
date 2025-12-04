@@ -3,6 +3,7 @@
 #include "include/game.hpp"
 // #include "include/laser.hpp"
 // #include "include/obstacle.hpp"
+// #include "./include/alien.hpp"
 
 
 int main()
@@ -22,6 +23,7 @@ int main()
     Game game;
     // Laser laser = Laser({100, 100}, 7);
     // Obstacle obstacle = Obstacle({100, 100});
+    // Alien alien = Alien(1, {100, 100});
 
     // main game loop
     while (WindowShouldClose() == false)
@@ -38,6 +40,7 @@ int main()
         // draw spaceship
         // spaceship.draw();
         game.Draw();
+        // alien.Draw();
         // obstacle.Draw();
         // laser.Draw();
 
